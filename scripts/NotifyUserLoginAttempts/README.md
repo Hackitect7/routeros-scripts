@@ -72,8 +72,7 @@ View the logs:
 
 ## Support
 
-If you have questions, suggestions or bugs, create an issue in the repository:
-[GitHub Profile](https://github.com/Hackitect7/routeros-scripts)
+If you have questions, suggestions or bugs, create an issue in the repository: [GitHub Profile](https://github.com/Hackitect7/routeros-scripts)
 
 Author: Hackitect7
 

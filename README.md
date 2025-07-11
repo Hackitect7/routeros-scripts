@@ -19,6 +19,7 @@ Automation scripts for monitoring, notifications, and other system tasks.
 | Script              | Description       |
 | ------------------- | ----------------- |
 | [`NotifyUserLoginAttempts`](./scripts/NotifyUserLoginAttempts/README.md) | Monitors RouterOS logs for user login/logout events (`account` topic) and sends an email alert when new entries are detected. Designed to run periodically via the scheduler. |
+| [`CPUOverloadCheck`](./scripts/CPUOverloadCheck/README.md)               | Measures CPU load multiple times, calculates average usage, and sends an email alert if the load exceeds a defined threshold. Runs via scheduled tasks.                     |
 
 ---
 

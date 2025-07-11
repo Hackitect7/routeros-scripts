@@ -34,7 +34,7 @@
 # This example helps you understand the format of notifications you will receive.
 #
 # How to apply:
-# 1. Open the MikroTik terminal (`Winbox → New Terminal`, or SSH/WebFig terminal).
+# 1. Open the MikroTik terminal (`Winbox -> New Terminal`, or SSH/WebFig terminal).
 # 2. Create a new script and paste the entire contents of this file.
 #    You can do it with the following command:
 #

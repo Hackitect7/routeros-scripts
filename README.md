@@ -12,7 +12,7 @@ Each group folder contains its own `README.md` with detailed descriptions and se
 
 ---
 
-### 🔧 [Scripts](./scripts/README.md)
+### 🔧 [Scripts](./scripts/)
 
 Automation scripts for monitoring, notifications, and other system tasks.
 
@@ -24,7 +24,7 @@ Automation scripts for monitoring, notifications, and other system tasks.
 
 ---
 
-### 🧩 [Functions](./functions/README.md)
+### 🧩 [Functions](./functions/)
 
 Reusable functions designed to be called from other scripts (e.g. email sending, parsing, etc).
 

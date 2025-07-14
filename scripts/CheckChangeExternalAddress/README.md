@@ -13,7 +13,7 @@ This script is useful for:
 
 - RouterOS with internet access and DNS resolution.
 - RouterOS with configured mail sending (SMTP).
-- The supporting function script [SendEmailFunction](../../functions/SendEmailFunction/SendEmailFunction.rsc) must be imported and configured.
+- The supporting function script [SendEmailFunction](../../functions/SendEmailFunction/) must be imported and configured.
 - Script access policies: `read`, `write`, `policy`, `test`.
 
 ## How it works

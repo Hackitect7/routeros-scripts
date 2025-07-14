@@ -9,7 +9,7 @@ The script includes built-in protection against concurrent executions by using a
 ## Requirements
 
 - RouterOS with configured mail sending (SMTP).
-- Availability of auxiliary script [SendEmailFunction](../functions/SendEmailFunction/) for sending emails.
+- Availability of auxiliary script [SendEmailFunction](../../functions/SendEmailFunction/) for sending emails.
 - Script access policies: `read`, `write`, `policy`, `test`.
 - Make sure your SMTP server allows sending emails from MikroTik.
 

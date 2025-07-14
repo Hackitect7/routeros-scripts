@@ -6,7 +6,7 @@ Reusable helper scripts (functions) designed to be called from other RouterOS sc
 
 ## 📜 Available Functions
 
-- [SendEmailFunction](./SendEmailFunction/README.md)  
+- [SendEmailFunction](./SendEmailFunction/)  
   Function to send email via SMTP (supports TLS, attachments, app passwords).
 
 (More functions coming soon...)

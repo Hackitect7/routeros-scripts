@@ -2,7 +2,8 @@
 
 ## Description
 
-A RouterOS script that monitors the external IP address by querying [ipify.org](http://api.ipify.org). If the IP changes, it sends an email notification with the new and previous IP addresses.
+A RouterOS script that monitors the external IP address by querying [ipify.org](http://api.ipify.org).  
+If the IP changes, it sends an email notification with the new and previous IP addresses.
 
 This script is useful for:
 

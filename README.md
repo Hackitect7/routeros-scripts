@@ -18,9 +18,9 @@ Automation scripts for monitoring, notifications, and other system tasks.
 
 | Script              | Description       |
 | ------------------- | ----------------- |
-| [`NotifyUserLoginAttempts`](./scripts/NotifyUserLoginAttempts/README.md) | Monitors RouterOS logs for user login/logout events (`account` topic) and sends an email alert when new entries are detected. Designed to run periodically via the scheduler. |
-| [`CPUOverloadCheck`](./scripts/CPUOverloadCheck/README.md)               | Measures CPU load multiple times, calculates average usage, and sends an email alert if the load exceeds a defined threshold. Runs via scheduled tasks.                       |
-| [`CheckChangeExternalAddress`](./scripts/CheckChangeExternalAddress/README.md) | Monitors the router's external IP address using `ipify.org`. Sends an email alert if the external IP has changed since the last check.                                  |
+| [`NotifyUserLoginAttempts`](./scripts/NotifyUserLoginAttempts/) | Monitors RouterOS logs for user login/logout events (`account` topic) and sends an email alert when new entries are detected. Designed to run periodically via the scheduler. |
+| [`CPUOverloadCheck`](./scripts/CPUOverloadCheck/)               | Measures CPU load multiple times, calculates average usage, and sends an email alert if the load exceeds a defined threshold. Runs via scheduled tasks.                       |
+| [`CheckChangeExternalAddress`](./scripts/CheckChangeExternalAddress/) | Monitors the router's external IP address using `ipify.org`. Sends an email alert if the external IP has changed since the last check.                                  |
 
 ---
 
@@ -30,7 +30,7 @@ Reusable functions designed to be called from other scripts (e.g. email sending,
 
 | Function            | Description       |
 | ------------------- | ----------------- |
-| [`SendEmailFunction`](./functions/SendEmailFunction/README.md) | General-purpose SMTP email sender. Called from other scripts to send notifications via external mail servers (supports TLS, attachments, and app passwords). Not intended to be run directly. |
+| [`SendEmailFunction`](./functions/SendEmailFunction/) | General-purpose SMTP email sender. Called from other scripts to send notifications via external mail servers (supports TLS, attachments, and app passwords). Not intended to be run directly. |
 
 ---
 

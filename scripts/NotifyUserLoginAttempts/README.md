@@ -8,7 +8,7 @@ A script for RouterOS that analyzes the system log for user login/logout events 
 ## Requirements
 
 - RouterOS with configured mail sending (SMTP).
-- Availability of auxiliary script [SendEmailFunction](../functions/SendEmailFunction/README.md) for sending emails.
+- Availability of auxiliary script [SendEmailFunction](../functions/SendEmailFunction/) for sending emails.
 - Script access policies: `read`, `write`, `policy`, `test`.
 
 ## Installing the script

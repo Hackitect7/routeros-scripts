@@ -68,7 +68,7 @@ This is an automated message.
 
 ## Troubleshooting
 
-- Make sure your firewall allows outbound HTTP (TCP 80) for API request to [api.ipify.org](http://api.ipify.org)
+- Make sure your firewall allows outbound HTTP (TCP 80) for API request to `http://api.ipify.org`.
 - SMTP must be correctly configured in /tool e-mail.
 - Use logs to trace issues:
 

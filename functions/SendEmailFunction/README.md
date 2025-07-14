@@ -8,7 +8,7 @@ Designed to be called from other scripts (e.g., login monitoring, alerts, backup
 ## 📄 Script Info
 
 - **Script Name:** `SendEmailFunction`
-- **Author:** Hackitect7
+- **Author:** [Hackitect7](https://github.com/Hackitect7)
 - **Year:** 2025  
 - **License:** [MIT](../../LICENSE)
 - **GitHub:** [https://github.com/Hackitect7/routeros-scripts](https://github.com/Hackitect7/routeros-scripts)

@@ -58,7 +58,7 @@ Subject: Mikrotik INFO: MyRouter [2025-07-14 11:32:00] External IP address has c
 
 IP Address Change Notification
 
-Device: MyRouter
+Device: MyRouterName
 Date: 2025-07-14
 Time: 11:32:00
 New IP Address: 203.0.113.47

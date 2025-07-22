@@ -22,6 +22,7 @@ Automation scripts for monitoring, notifications, and other system tasks.
 | [`CPUOverloadCheck`](./scripts/CPUOverloadCheck/)               | Measures CPU load multiple times, calculates average usage, and sends an email alert if the load exceeds a defined threshold. Runs via scheduled tasks.                       |
 | [`CheckChangeExternalAddress`](./scripts/CheckChangeExternalAddress/) | Monitors the router's external IP address using `ipify.org`. Sends an email alert if the external IP has changed since the last check.                                  |
 | [`CheckUpdate`](./scripts/CheckUpdate/) | Checks daily for new RouterOS updates and sends an email notification if a new version is available. |
+| [`CreateBackupAndSendEmail`](./scripts/CreateBackupAndSendEmail/) | Creates a RouterOS configuration backup (optionally encrypted with a password), then emails it as an attachment to a specified address. Note: if no password is set, the backup will be sent unencrypted over the internet. |
 
 ---
 

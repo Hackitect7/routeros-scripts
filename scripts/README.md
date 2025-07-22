@@ -15,4 +15,7 @@ Automation scripts that perform independent actions in RouterOS.
 - [CheckChangeExternalAddress](./CheckChangeExternalAddress/)  
   Checks the router’s external IP address using ipify.org and sends a notification email if the IP address has changed.
 
+- [CheckUpdate](./CheckUpdate/)  
+  Checks daily for new RouterOS updates and sends an email notification if a new version is available.
+
 (More scripts coming soon...)

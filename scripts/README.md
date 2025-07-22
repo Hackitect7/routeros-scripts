@@ -15,6 +15,6 @@ Automation scripts that perform independent actions in RouterOS.
 - [CheckUpdate](./CheckUpdate/)  
   Checks daily for new RouterOS updates and sends an email notification if a new version is available.
 - [CreateBackupAndSendEmail](./CreateBackupAndSendEmail/)  
-  Creates a secure backup of the router configuration and emails it as an attachment. Optionally password-protected. Without a password, the backup is transmitted in unencrypted form, which may pose a security risk. Designed to be used with the built-in `SendEmailFunction`.
+  Creates a secure backup of the router configuration and emails it as an attachment. Optionally password-protected. Without a password, the backup is transmitted in unencrypted form, which may pose a security risk.
 
 (More scripts coming soon...)

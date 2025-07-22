@@ -23,6 +23,7 @@ Automation scripts for monitoring, notifications, and other system tasks.
 | [`CheckChangeExternalAddress`](./scripts/CheckChangeExternalAddress/) | Monitors the router's external IP address using `ipify.org`. Sends an email alert if the external IP has changed since the last check.                                  |
 | [`CheckUpdate`](./scripts/CheckUpdate/) | Checks daily for new RouterOS updates and sends an email notification if a new version is available. |
 | [`CreateBackupAndSendEmail`](./scripts/CreateBackupAndSendEmail/) | Creates a RouterOS configuration backup (optionally encrypted with a password), then emails it as an attachment to a specified address. Note: if no password is set, the backup will be sent unencrypted over the internet. |
+| [`DeviceOverheatingNotification`](./scripts/DeviceOverheatingNotification/) | Monitors system temperature using RouterOS sensors and sends an email alert if the value exceeds a defined threshold. Useful for preventing hardware damage in hot environments. |
 
 ---
 
